@@ -30,6 +30,15 @@
 * We delete the user and his home directory.
 * command: `sudo deluser --remove-home john`
 * to verify command: groups john
+* <img width="322" height="111" alt="image" src="https://github.com/user-attachments/assets/e2119baa-5661-4e72-8552-f25e4ff84dc4" />
+###### CONCLUSION
+* Created a user.
+
+* Escalated privileges.
+
+* De-escalated privileges.
+
+* Deleted the user.
 
 
 
