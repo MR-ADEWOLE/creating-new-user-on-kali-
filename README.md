@@ -24,7 +24,13 @@
 * Action:Remove john from sudo groups
 * command:`sudo deluser john sudo`
 * To verify command: groups david
-* 
+*<img width="307" height="130" alt="image" src="https://github.com/user-attachments/assets/5fb5af5a-bce6-427e-96d1-1a8a33a182ed" />
+###### STEP FOUR (4):Deleting the User (John)
+* Since John has officially left the company, we need to delete his user account and remove all his files to keep the system clean.
+* We delete the user and his home directory.
+* command: `sudo deluser --remove-home john`
+* to verify command: groups john
+
 
 
 
