@@ -15,6 +15,8 @@
 * After John as being hardworking in the company for few months the management has decided to promote him,we need to escalate his privileges so he can perform administrative tasks.
 * Action:Add john to `sudo` groups
 * command:`sudo usermod -aG sudo john`
+* To verify command:`groups john`
+* 
 
 
 
