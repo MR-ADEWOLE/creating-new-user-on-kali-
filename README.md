@@ -16,7 +16,19 @@
 * Action:Add john to `sudo` groups
 * command:`sudo usermod -aG sudo john`
 * To verify command:`groups john`
+* <img width="274" height="102" alt="image" src="https://github.com/user-attachments/assets/b30bbb74-3513-4d49-a3a4-ede36b095675" />
+
+###### STEP THREE(3): STAFF RESIGNS. 
+###### (Privilege De-escalation).
+* John was caught staeling the company fund and was invovled in fraudulent activity he was fired. To protect the security of the company we must revoke his admintrative right before deleting his company account.
+* Action:Remove john from sudo groups
+* command:`sudo deluser john sudo`
+* To verify command: groups david
 * 
+
+
+
+
 
 
 
